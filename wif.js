@@ -4,7 +4,7 @@ export default {
   async fetch(request, env, ctx) {
     const WIF_ADDRESS = "7nBNkR1zz2MpBzwHaCKqjQCgDdJgK7Kn5vASkT2R8z7s";
     const API_URL = `https://public-api.solscan.io/token/txs?limit=10&tokenAddress=${WIF_ADDRESS}`;
-    const SERVER_CHAN_KEY = "你的Server酱KEY"; // 👉 替换成你的 Server 酱 key
+    const SERVER_CHAN_KEY = "SCT276996TnfgV8m7kD1kybPEeGPKk8yTq"; // 👉 替换成你的 Server 酱 key
     const COINGECKO_API = `https://api.coingecko.com/api/v3/simple/price?ids=wif&vs_currencies=usd`;  // 获取 WIF 的实时价格
 
     try {
